@@ -137,7 +137,6 @@ h1 {
   display: inline-block;
 }
 
-/* Tooltip text */
 .Edit .tooltiptext {
   visibility: hidden;
   width: 120px;
@@ -146,13 +145,10 @@ h1 {
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
-
-  /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
 }
 
-/* Show the tooltip text when you mouse over the tooltip container */
 .Edit:hover .tooltiptext {
   visibility: visible;
 }
@@ -162,7 +158,6 @@ h1 {
   display: inline-block;
 }
 
-/* Tooltip text */
 .Delete .tooltiptext {
   visibility: hidden;
   width: 120px;
@@ -171,13 +166,10 @@ h1 {
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
-
-  /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
 }
 
-/* Show the tooltip text when you mouse over the tooltip container */
 .Delete:hover .tooltiptext {
   visibility: visible;
 }
@@ -187,7 +179,6 @@ h1 {
   display: inline-block;
 }
 
-/* Tooltip text */
 .Checked .tooltiptext {
   visibility: hidden;
   width: 120px;
@@ -196,13 +187,10 @@ h1 {
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
-
-  /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
 }
 
-/* Show the tooltip text when you mouse over the tooltip container */
 .Checked:hover .tooltiptext {
   visibility: visible;
 }

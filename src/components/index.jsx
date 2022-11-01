@@ -83,7 +83,7 @@ export function Todo(props) {
 
   return (
     <div id="container">
-      <h1>TODO APP</h1>
+      <h1>TO DO List</h1>
       <div className="input-wrapper">
         <input ref={inputRef}
           type={"text"}

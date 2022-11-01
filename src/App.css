@@ -19,14 +19,14 @@ h1 {
 }
 
 /* Input Section */
-.input-wrapper{
+.input-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .text {
-  width: 80%;
+  width: 70%;
   height: 40px;
   border: none;
   border-radius: 10px;
@@ -47,8 +47,21 @@ h1 {
   cursor: pointer;
 }
 
-.add:hover{
+.add:hover {
   background-color: #d0e3e3;
+}
+
+.options {
+  font-size: 1rem;
+  appearance: none;
+  outline: none;
+  border: none;
+  width: 20%;
+  background-color: #d0e3e3;
+  height: 40px;
+  font-weight: 600;
+  padding-left: 1rem;
+  border-radius: 10px;
 }
 
 /* List items */
@@ -76,7 +89,7 @@ h1 {
   cursor: pointer;
 }
 
-.item{
+.item {
   flex: 1;
 }
 @media only screen and (max-width: 1200px) {
@@ -86,4 +99,80 @@ h1 {
   .add {
     size: 1em;
   }
+}
+
+/* --------------------------------------------- */
+.Edit {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.Edit .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.Edit:hover .tooltiptext {
+  visibility: visible;
+}
+
+.Delete {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.Delete .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.Delete:hover .tooltiptext {
+  visibility: visible;
+}
+
+.Checked {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.Checked .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.Checked:hover .tooltiptext {
+  visibility: visible;
 }

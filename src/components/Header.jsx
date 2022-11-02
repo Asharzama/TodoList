@@ -15,12 +15,12 @@ const Header = (props) => {
     inputRef,
   } = useContext(editContext);
   const [alert, setAlert] = useState("hidden");
-
   const addItem = (event) => {
     setTodo(event.target.value);
   };
 
   const addTodo = () => {
+
     if (todo !== "") {
       setAlert("hidden");
       if (editedItem !== "") {
@@ -35,6 +35,7 @@ const Header = (props) => {
         setTodo("");
         setEditedItem("");
       } else {
+
         setTodoList([...todoList, { work: todo, isChecked: false }]);
         setTodo("");
       }
@@ -60,8 +61,8 @@ const Header = (props) => {
           }}
         />
 
-        <button className="add" onClick={addTodo}>
-          <AiOutlinePlus size="2.5em" />
+        <button className="add" onClick={addTodo} >
+        <AiOutlinePlus size="2em" />
         </button>
         <select
           className="options"

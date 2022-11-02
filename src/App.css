@@ -43,6 +43,7 @@ h1 {
 }
 
 .add {
+  padding: 0.25em;
   display: inline-block;
   border: none;
   border-radius: 10px;

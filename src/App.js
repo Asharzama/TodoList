@@ -6,7 +6,7 @@ import Header from "./components/Header";
 export const editContext = createContext();
 
 function App() {
-  const [editedItem, setEditedItem] = useState();
+  const [editedItem, setEditedItem] = useState("");
   const [sortItems, setSortItems] = useState("All");
   const [todoList, setTodoList] = useState([]);
   const [todo, setTodo] = useState("");

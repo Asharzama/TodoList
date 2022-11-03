@@ -47,7 +47,7 @@ const Body = () => {
     <div>
       {displayList.map((todo, index) => (
         <div id="item" key={index}>
-          <span className="item">{todo.work}</span>
+          <span className="item" title={todo.work}>{todo.work}</span>
           <div>
             <button className="Checked" onClick={() => checkBox(todo, index)}>
               <MdCheck size="1.5em" />

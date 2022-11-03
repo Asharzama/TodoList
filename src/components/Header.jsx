@@ -44,7 +44,7 @@ const Header = (props) => {
     }
   };
   return (
-    <div>
+    <div className="header">
       <h1>TO DO List</h1>
       <div className="input-wrapper">
         <input

@@ -21,6 +21,12 @@ h1 {
 }
 
 /* Input Section */
+.header{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
 .input-wrapper {
   display: flex;
   align-items: center;
@@ -93,13 +99,14 @@ h1 {
   font-size: 25px;
   font-weight: 500;
   padding-left: 5px;
-  height: 40px;
+  min-height: 40px;
   box-shadow: 4px 2px 10px 1px rgba(0, 0, 0, 0.9);
 }
 #item span {
-  cursor: pointer;
-  flex: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
+
 #item button {
   border: none;
   margin: 6px;
